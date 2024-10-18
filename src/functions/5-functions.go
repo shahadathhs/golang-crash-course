@@ -1,8 +1,8 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
+func Demonstrate() {
   fmt.Println("###### Welcome to our Todolist App! ######")
 
   var shortGolang = "Watch Go crash course"

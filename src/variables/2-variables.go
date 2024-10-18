@@ -1,8 +1,8 @@
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func Demonstrate() {
   var shortGolang = "Watch Go crash course"
   var fullGolang = "Watch Nana's Golang Full Course"
   rewardDessert := "Reward myself with a donut"

@@ -1,4 +1,4 @@
-package main
+package api
 
 import (
   "fmt"
@@ -10,7 +10,7 @@ var fullGolang = "Watch Nana's Golang Full Course"
 var rewardDessert = "Reward myself with a donut"
 var taskItems = []string{shortGolang, fullGolang, rewardDessert}
 
-func main() {
+func Demonstrate() {
   http.HandleFunc("/", helloUser)
   http.HandleFunc("/show-tasks", showTasks)
   http.ListenAndServe(":8080", nil)

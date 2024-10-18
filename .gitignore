@@ -1,0 +1,45 @@
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Vendor directory
+/vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~.nib
+*.iml
+*.log
+
+# Go modules
+go.sum
+# If using Go modules, the following can be ignored
+# but you may want to keep them if you have specific module requirements
+#go.mod
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage files
+*.cov
+*.out
+
+# Cache files
+*.cache
+
+# Environment variable files
+.env
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
